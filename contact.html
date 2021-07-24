@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+  <title>Avocado Much</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm  navbar-light" style="background-color: #C9D8B6;">
+    <a href="index.html"><span class="navbar-brand mb-0 h1 ">AVOCADO<span class="text-white">MUCH</span></span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse  justify-content-end " id="navbarTogglerDemo03">
+      <div class="d-flex justify-content-end ">
+        <ul class="navbar-nav align-content-start">
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="eats.html">Eats</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="hair.html">Hair</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link" href="facts.html">Facts</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+ 
+<div class="container">
+  <h2 class="display-5 text-center">Want to Share?</h2>
+  <form action="">
+    <div class="form-row">
+      <div class="col form-group">
+    <label for="firstName">first name:</label>
+    <input type="text" class="form-control" placeholder="avocado">
+  </div>
+  <div class="col for-group">
+    <label for="socialMedia">social media:</label> 
+    <input type="text" class="form-control" placeholder="@avocadomuch">
+  </div>
+  </div>
+
+  <div class="form-row">
+    <div class="col-6 form-group">
+    <label for="email">email:</label>
+    <input type="email" class="form-control" placeholder="avocadomuch@gmail.com">
+  </div>
+ 
+
+
+  <div class="col-6 form-group">
+
+  <div class="form-check ">
+    <input class="form-check-input" type="radio" name="shareOption" id="hair" value="hair" checked>
+    <label class="form-check-label" for="hair">
+      Hair
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="shareOption" id="eats" value="eats">
+    <label class="form-check-label" for="eats">
+      Eats
+    </label>
+  </div>
+  <div class="form-check disabled">
+    <input class="form-check-input" type="radio" name="shareOption" id="other" value="other">
+    <label class="form-check-label" for="other">
+      Other
+    </label>
+    <input type="text" for="other" class="form-control col-3">
+  </div>
+</div>
+
+</div>
+  
+
+
+  <div class="form-row">
+    <div class="col form-group">
+    <label for="shareText">share here:</label>
+    <textarea name="shareText" class="form-control" id="shareText" cols="30" rows="10" placeholder="Type Here"></textarea>
+  </div>
+  </div>
+
+  <button class="btn btn-outline-success">Share!</button>
+  </form>
+</div>
+
+
+
+
+  <footer class="py-2 mt-3" style="background-color: #C9D8B6;">
+    <p class="text-center">&copy; AvocadoMuch 2021</p>
+  </footer>
+
+
+
+
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
